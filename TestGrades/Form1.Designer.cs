@@ -45,6 +45,7 @@
             // 
             this.LblFormTitle.AutoSize = true;
             this.LblFormTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblFormTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LblFormTitle.Location = new System.Drawing.Point(250, 52);
             this.LblFormTitle.Name = "LblFormTitle";
             this.LblFormTitle.Size = new System.Drawing.Size(376, 36);
@@ -144,6 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Tomato;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TxtResults);
             this.Controls.Add(this.BtnGetResult);
