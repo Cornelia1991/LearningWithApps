@@ -61,11 +61,11 @@ namespace GasCompany
             }
             else if (kwhUsed > 12 && kwhUsed <= 90)
             {
-                totalKwh = (2.50) + ((kwhUsed - 12) * 0.08);
+                totalKwh = (2.80) + ((kwhUsed - 12) * 0.08);
             }
             else if (kwhUsed > 90)
             {
-                totalKwh = (8.74) + ((kwhUsed - 90) * 0.06);
+                totalKwh = (9.04) + ((kwhUsed - 90) * 0.06);
             }
 
             MessageBox.Show("The Total is " + totalKwh.ToString("c"));
